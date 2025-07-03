@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, memo } from "react";
+import { memo } from "react";
 import { CHAT_MODE, APP_TYPE } from "@/lib/protocol";
 import { ChatRecord } from "./record";
 import { ChatInput, ChatVadInput } from "./input";
@@ -12,7 +12,7 @@ import {
 function FreedomChatBot() {
     const { chatMode } = useSentioChatModeStore();
     return (
-        <div className="flex flex-col full-height-minus-64px pb-6 md:px-6 gap-6 justify-between items-center z-10">
+        <div className="flex flex-col full-height-minus-64px pb-24 md:px-6 gap-6 justify-between items-center z-10">
             <ChatRecord />
             {chatMode == CHAT_MODE.IMMSERSIVE ? <ChatVadInput/> : <ChatInput />}
         </div>

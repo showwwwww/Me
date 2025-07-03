@@ -104,7 +104,7 @@ export const ChatInput = memo(({
 
     return (
         <div className='flex flex-col w-4/5 md:w-2/3 2xl:w-1/2 items-start z-10 gap-2'>
-            <div className='flex w-full items-center z-10'>
+            <div className='flex w-full items-center gap-4 z-10'>
                 <Input
                     className='opacity-90'
                     startContent={
