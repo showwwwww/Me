@@ -1,0 +1,40 @@
+# IDE File
+.idea
+.vscode
+
+# uv File
+.python-version
+pyproject.toml
+uv.lock
+
+# log File
+logs
+*log.txt
+
+# bak File
+*.bak
+
+# Output File
+outputs
+*.wav
+*.mp3
+*.mp4
+
+# Python tmp File
+__pycache__
+
+# web tmp File
+node_modules
+dist
+# package-lock.json
+pnpm-lock.yaml
+
+# local Folder
+data
+volumes
+config.yaml
+.env
+.DS_Store
+web/next.config.mjs
+web/app/greet
+web/public/sentio/characters/custom
