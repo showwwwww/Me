@@ -15,7 +15,7 @@ PARAMETERS: [
     type: "string",
     required: true,
     choices: ["Getting from voice api..."],
-    default: "zh-CN-XiaoxiaoNeural"
+    default: "zh-CN-YunxiNeural"
   },
   {
     name: "rate",

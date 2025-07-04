@@ -23,6 +23,6 @@ PARAMETERS: [
     type: "string",
     required: false,
     choices: [],
-    default: ""
+    default: "adh_cv_agent.cv_rag_agent"
   }
 ]

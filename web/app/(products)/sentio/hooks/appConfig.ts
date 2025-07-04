@@ -32,7 +32,7 @@ export function useAppConfig() {
             const model = CONSTANTS.SENTIO_CHARACTER_DEFAULT;
             const path = CONSTANTS.SENTIO_CHARACTER_FREE_PATH;
             const defaultCharacter: ResourceModel = {
-                resource_id: "FREE_HaruGreeter",
+                resource_id: "FREE_Chitose",
                 name: model,
                 link: getSrcPath(CONSTANTS.SENTIO_CHARACTER_DEFAULT_PORTRAIT),
                 type: RESOURCE_TYPE.CHARACTER,
